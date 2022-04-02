@@ -21,6 +21,16 @@ Returns three parameters:
 - fetch_json
 - count
 
+
+##### Example code for select function
+
+Let **users** database be like:
+| id | name | surname | email | perm |
+| - | - | - | - | - |
+| 1 | John | Doe | john@doe.com | admin |
+| 2 | James | Webb | james@webb.com | user |
+| 3 | Rob | Robby | rob@robby.com | user |
+
 &emsp; It is also possible to pull certain rows by entering the *column_name* and *column_value*. Also you can limit pulled rows with entering *limit_value*.
 
 In example:
@@ -34,14 +44,6 @@ $data = $conn->fetch;
 
 It lists only 1 of the users with "user" privilege.
 
-###### Example code for select function
-
-Let **users** database be like:
-| id | name | surname | email | perm |
-| - | - | - | - | - |
-| 1 | John | Doe | john@doe.com | admin |
-| 2 | James | Webb | james@webb.com | user |
-| 3 | Rob | Robby | rob@robby.com | user |
 
 ```php
 $conn = new Select();
