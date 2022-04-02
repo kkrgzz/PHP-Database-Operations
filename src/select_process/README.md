@@ -16,6 +16,11 @@ This function needs one compulsory value and three optional value. These are:
 - limit_value
     - Data limit to be received in total. Default value: NULL.
 
+Returns three parameters:
+- fetch
+- fetch_json
+- count
+
 &emsp; It is also possible to pull certain rows by entering the *column_name* and *column_value*. Also you can limit pulled rows with entering *limit_value*.
 
 In example:
@@ -100,11 +105,6 @@ echo $conn->count;
 This code returns:
 
     3
-
-Returns three parameters:
-- fetch
-- fetch_json
-- count
 
 
 ##### select_with_two_params()
