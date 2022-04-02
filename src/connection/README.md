@@ -1,5 +1,4 @@
-## Database Connection Class
-___
+### Database Connection Class
 
 In [Database Connection file](db_connection.php) you should change the database informations to connect your own database. Prerequisites are given below:
 

@@ -1,5 +1,4 @@
 ## Make Database Operations Easier
-___
 
 First of all you should connect your database.
 
