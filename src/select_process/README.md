@@ -1,6 +1,3 @@
-## Make Database Operations Easier
-___
-
 ### Select Operation Class
 In this class you can select data from database with using functions listed below:
 
