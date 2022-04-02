@@ -45,6 +45,9 @@ $data = $conn->fetch;
 It lists only 1 of the users with "user" privilege.
 
 
+###### Multiple Line Selection
+
+
 ```php
 $conn = new Select();
 
