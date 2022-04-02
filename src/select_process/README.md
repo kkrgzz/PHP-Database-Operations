@@ -31,6 +31,8 @@ Let **users** database be like:
 | 2 | James | Webb | james@webb.com | user |
 | 3 | Rob | Robby | rob@robby.com | user |
 
+###### Specific Line Selection
+
 &emsp; It is also possible to pull certain rows by entering the *column_name* and *column_value*. Also you can limit pulled rows with entering *limit_value*.
 
 In example:
